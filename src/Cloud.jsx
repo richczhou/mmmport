@@ -22,7 +22,7 @@ export default function Cloud (props) {
     let floorRef = useRef();
     let wallRef = useRef();
 
-    const mat = useCloudMat(0.5, false);
+    const mat = useCloudMat(1.0, false);
 
     useFrame( (state, delta) =>{
         // console.log(cloudRef.current)

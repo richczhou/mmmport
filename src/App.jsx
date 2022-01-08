@@ -21,11 +21,20 @@ export default function App () {
 
   return (
     <>
-    <Canvas gl={{alpha:false}} camera={{position: [70, 50, 70]}}>
+    <Canvas gl={{alpha:false}} camera={{position: [38, 25, 38]}}>
 
       {/* make the clear color blue */}
       <color attach="background" args={["#0a1212"]} />
-      <OrbitControls />
+      <OrbitControls 
+        autoRotate 
+        autoRotateSpeed={3.0}
+        enableDamping
+        dampingFactor={0.5}
+        enablePan={false}
+        minPolarAngle={Math.PI/4}
+        maxPolarAngle={Math.PI/2}
+        minDistance={5}
+        maxDistance={100}/>
 
       {/* STUFF */}
       <Desk

@@ -28,7 +28,7 @@ function Desk ({json, ...props}) {
         // Stalk behaviors
         if (mouseState.isHovered) {
 
-            gsap.to(barSettings, {duration: 0.5, height: 300, opacity: 100})
+            gsap.to(barSettings, {duration: 0.5, height: 250, opacity: 100})
             // gsap.to(stickRef.current, {duration: 0.5, height: 200})
 
             stickRef.current.style.height = `${barSettings.height}px`

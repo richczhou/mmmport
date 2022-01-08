@@ -100,10 +100,10 @@ const frag = `
     
     void main() {
 
-      gl_FragColor = vec4(vColor, 1.0);
+      // gl_FragColor = vec4(vColor, 1.0);
 
       // saturation attenuation to white
-      // gl_FragColor = vec4(vColor * exp(-vDepth + 0.75), 1.0);
+      gl_FragColor = vec4(vColor * exp(-vDepth + 0.75), 1.0);
 
       // saturation attenuation to black
       // gl_FragColor = vec4(vColor * vDepth, 1.0);
@@ -111,9 +111,12 @@ const frag = `
       //debugging
       // gl_FragColor = vec4(vDepth, 0, 0, 1.0);
 
+      // adjusting color brightness
+      gl_FragColor = vec4(gl_FragColor.rgb *= 0.8, 1.0);
+
       // changing color based on selected
       if(!uSelected) {
-        gl_FragColor = vec4(gl_FragColor.rgb *= 0.5, 1.0);
+        gl_FragColor = vec4(gl_FragColor.rgb *= 0.7, 1.0);
       }
     }
     `
