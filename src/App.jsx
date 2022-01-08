@@ -42,70 +42,70 @@ export default function App () {
         position={[16.5, 2, -12]} 
         userData={{id: "alison",
                    label: "Alison Hu", 
-                   text:"Environments Junior"}} 
+                   text:"UX & HCI Designer"}} 
       />
       <Desk
         json={eric}
         position={[16.5, 2, -5]} 
         userData={{id: "eric",
                    label: "Eric Zhao", 
-                   text:"Environments Junior"}} 
+                   text:"Interaction & UX Designer"}} 
       />
       <Desk
         json={max}
         position={[4, 2, -12]} 
         userData={{id: "max",
                    label: "Max Shim", 
-                   text:"Environments Junior"}} 
+                   text:"Environments Designer"}} 
       />
       <Desk
         json={dan}
         position={[4, 2, -5]} 
         userData={{id: "dan",
                    label: "Daniel Zhu", 
-                   text:"Environments Junior"}} 
+                   text:"Digital & HCI Designer"}} 
       />
       <Desk
         json={rachel}
         position={[16.5, 2, 14]} 
         userData={{id: "rachel",
                    label: "Rachel Legg", 
-                   text:"Environments Junior"}} 
+                   text:"Environments Designer"}} 
       />
       <Desk
         json={richard}
         position={[16.5, 2, 21]} 
         userData={{id: "richard",
                    label: "Richard Zhou", 
-                   text:"Environments Junior"}} 
+                   text:"WebGL & AR/VR Designer"}} 
       />
       <Desk
         json={jackie}
         position={[5, 2, 14]} 
         userData={{id: "jackie",
                    label: "Jiaqi Wang", 
-                   text:"Environments Junior"}} 
+                   text:"Environments Designer"}} 
       />
       <Desk
         json={kimbo}
         position={[5, 2, 21]} 
         userData={{id: "kimbo",
                    label: "Michael Kim", 
-                   text:"Environments Junior"}} 
+                   text:"3D Artist & Designer"}} 
       />
       <Desk
         json={sea}
         position={[-7, 2, 14]} 
         userData={{id: "sea",
                    label: "Se-A Kim", 
-                   text:"Environments Junior"}} 
+                   text:"Environments Designer"}} 
       />
       <Desk
         json={ming}
         position={[-7, 2, 21]} 
         userData={{id: "ming",
                    label: "Ruoming Xin", 
-                   text:"Environments Junior"}} 
+                   text:"Graphic Designer"}} 
       />
 
       <Cloud />
